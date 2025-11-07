@@ -22,7 +22,7 @@ print(my_var_3["day3"])
 print(my_var_3["day2"])
 
 calories = {"day1": 420, "day2": 380, "day3": 390}
-my_var_4 = pd.Series(calories, index = ["day1", "day2"])
+my_var_4 = pd.Series(calories, index = ["day1", "day2"], dtype = float)
 
 print(my_var_4)
 print(my_var_4["day1"])
