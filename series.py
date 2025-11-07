@@ -15,7 +15,7 @@ print(my_var_2["y"])
 print(my_var_2["z"])
 
 calories = {"day1": 420, "day2": 380, "day3": 390}
-my_var_3 = pd.Series(calories)
+my_var_3 = pd.Series(calories, name = "calories")
 
 print(my_var_3)
 print(my_var_3["day3"])
